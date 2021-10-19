@@ -21,7 +21,7 @@ char pass[] = SECRET_PASS;
 WiFiClient wifiClient;
 MqttClient mqttClient(wifiClient);
 
-const char broker[] = "";
+const char broker[] = "0.tcp.ngrok.io";
 int        port     = 17493;
 const char topic[]  = "v1/devices/me/telemetry";
 
