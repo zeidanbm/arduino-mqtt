@@ -1,2 +1,2 @@
-#define SECRET_SSID ""
-#define SECRET_PASS ""
+#define SECRET_SSID "Marvels"
+#define SECRET_PASS "DD6D79639d39"
