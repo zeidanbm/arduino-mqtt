@@ -1,2 +1,2 @@
 #define SECRET_SSID ""
-#define SECRET_PgiASS ""
+#define SECRET_PASS ""
