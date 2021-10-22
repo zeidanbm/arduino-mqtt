@@ -1,3 +1,3 @@
 .vscode/
 secrets.h
-secrets_pi.h
+secrets_pi.py
