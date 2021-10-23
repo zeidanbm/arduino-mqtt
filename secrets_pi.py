@@ -1,4 +1,4 @@
 MQTT_HOST = ""
 MQTT_PORT = 19628
-MQTT_TOPIC = "v1/devices/me/telemetry"
+MQTT_TOPIC = ""
 DEVICE_TOKEN = ""

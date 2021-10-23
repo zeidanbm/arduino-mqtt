@@ -12,13 +12,13 @@ char pass[] = SECRET_PASS;
 WiFiClient wifiClient;
 MqttClient mqttClient(wifiClient);
 
-const char broker[] = "4.tcp.ngrok.io";
-int        port     = 16180;
-const char topic[]  = "v1/devices/me/telemetry";
-const char inTopic[]   = "v1/devices/me/rpc/request/+";
+const char broker[] = BROKER;
+int        port     = PORT;
+const char topic[]  = TOPIC;
+const char inTopic[]   = IN_TOPIC;
 
-String username = "jHzOSbznV8JwGfGZoCs4"; //authentication token here
-String password = "";
+String username = MQTT_USERNAME; //authentication token here
+String password = MQTT_PASSWORD;
 
 const long interval = 1000;
 unsigned long previousMillis = 0;
